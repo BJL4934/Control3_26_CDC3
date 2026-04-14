@@ -1,4 +1,4 @@
-package is.c3.entities;
+package is.c3.model.entities;
 
 import java.util.logging.Logger;
 

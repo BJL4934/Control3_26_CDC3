@@ -40,6 +40,12 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
 	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
 	testImplementation 'org.junit.platform:junit-platform-engine:1.9.3'
+	testImplementation(platform('org.junit:junit-bom:5.8.2'))
+
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	
+	
+	
 
 	//Las siguientes dos dependencias las introduce gradle automÃ¡ticamente
 
@@ -54,7 +60,7 @@ dependencies {
 // Apply a specific Java toolchain to ease working on different environments.
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 

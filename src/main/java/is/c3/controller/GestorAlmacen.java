@@ -1,7 +1,7 @@
 package is.c3.controller;
 
-import is.c3.entities.Almacen;
-import is.c3.entities.Paquete;
+import is.c3.model.entities.Almacen;
+import is.c3.model.entities.Paquete;
 import is.c3.model.Producto;
 
 

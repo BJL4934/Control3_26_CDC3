@@ -2,8 +2,12 @@ package is.c3.entities;
 
 
 import is.c3.model.Producto;
+import is.c3.model.entities.Almacen;
+import is.c3.model.entities.Paquete;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 
