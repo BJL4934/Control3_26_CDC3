@@ -46,7 +46,7 @@ public class Almacen implements GestionProductos<Producto> {
 	@Override
 	public void delete(Producto producto) {
 		log.fine("Se va a eliminar el producto: " + producto.getDescripcion());	
-	
+		productos.remove(producto);
 	}
 	
 	@Override

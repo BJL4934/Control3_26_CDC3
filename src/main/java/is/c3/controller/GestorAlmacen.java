@@ -47,7 +47,7 @@ public class GestorAlmacen {
 	
 	private void estadoAlmacen() {
 		
-		System.out.println("Productos en el almacen");
+		System.out.println("Productos en el almacen BJL4934");
 		
 		for(Producto p: almacen.getProductos())
 			System.out.print(p);
